@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='utf-8'?> 
 <Context displayName="Individual_Project2" docBase="IndividualProject2" path="/IndividualProject2" reloadable="true">
   <!--                  SQLServer                      -->
-  <Resource name="DB01/water_testing" type="javax.sql.DataSource"
+  <Resource name="DB01/water_testing" auth="Container" type="javax.sql.DataSource"
       username="sa" password="passw0rd"
       driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
       url="jdbc:sqlserver://localhost:1433;databaseName=DB01"    
